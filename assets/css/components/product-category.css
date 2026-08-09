@@ -1,4 +1,4 @@
-/* produto-category.css */
+/* product-category.css */
 
 .categories-section {
     
@@ -30,6 +30,11 @@
 .category-card:hover .overlay {
     opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
+}
+
+.category-card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
 }
 
 .category-name {
@@ -70,7 +75,3 @@
     background-size: cover;
 }
 
-.category-card:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-}
