@@ -1,8 +1,8 @@
 /* header.css */
 
 .site-header {
-   background-color: #ffffff;
-   position: fixed;
+    background-color: #ffffff;
+    position: fixed;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
@@ -12,9 +12,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.255rem 1.25rem;
 
 }
+
 
 .site-logo img {
     height: 48px;
@@ -22,25 +23,25 @@
 }
 
 .nav-center ul {
-    
+
     display: flex;
     gap: 2.5rem;
 }
 
-.nav-center a, 
+.nav-center a,
 .nav-right a {
     font-weight: 1.25rem;
 
 }
 
-.nav-center a:hover, 
+.nav-center a:hover,
 .nav-right a:hover {
     color: #7c3aed;
 
 }
 
 .nav-right ul {
-    
+
     display: flex;
     gap: 2.5rem;
     align-items: center;
