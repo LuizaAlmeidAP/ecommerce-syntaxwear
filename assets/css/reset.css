@@ -10,6 +10,19 @@
   padding: 0;
 }
 
+corpo ,
+h1 ,
+h2 ,
+h3 ,
+h4 ,
+p ,
+figura ,
+bloco de citação ,
+dl ,
+dd {
+  margin:  0 ;
+}
+
 html:focus-within {
   scroll-behavior: smooth;
 }
@@ -27,6 +40,14 @@ ol[role='list'] {
 
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
 }
 
 img,
