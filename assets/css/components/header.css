@@ -22,7 +22,8 @@
     width: 150px;
 }
 
-.nav-center ul {
+.nav-center ul,
+.nav-right ul {
 
     display: flex;
     gap: 2.5rem;
