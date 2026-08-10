@@ -1,8 +1,8 @@
 /* footer.css */
 
 .site-footer{
-    background-color: #333333;
-    color: white;
+    background-color: var(--footer-back-color);
+    color: var(--back-color);
 
 }
 
@@ -39,12 +39,12 @@
 }
 
 .footer-column-list a{
-    color: white;
+    color: var(--back-color);
 }
 
 
 .footer-column-title{
-    color: #ededed;
+    color: var(--back-color-shadow);
     font-size: 1.25rem;
     font-weight: 200;
     line-height: 24px;

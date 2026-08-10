@@ -2,6 +2,11 @@
 
 :root{
     --fonte-principal: 'Ubuntu', sans-serif;
+    --back-color: #fff;
+    --footer-back-color: #333;
+    --back-color-shadow: #ededed;
+    --fonte-color: #6329A2;
+    --fonte-highlight-color: #7c3aed; 
     
     
 }

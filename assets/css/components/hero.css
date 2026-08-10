@@ -21,7 +21,7 @@
 }
 
 .hero-content {
-   color: #ffffff;
+   color: var(--back-color);
    max-width: 360px;
    text-align: center;
 }
