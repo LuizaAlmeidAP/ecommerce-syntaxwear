@@ -1,0 +1,109 @@
+/* footer.css */
+
+.site-footer{
+    background-color: #333333;
+    color: white;
+
+}
+
+
+
+.footer-top{
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3.125rem;
+}
+
+.footer-nav ul{
+    display: flex;
+    
+    gap: 20px;
+
+}
+
+.footer-column-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.footer-column-list a{
+    color: white;
+}
+
+
+.footer-column-title{
+    color: #ededed;
+    font-size: 1.25rem;
+    font-weight: 200;
+    line-height: 24px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.newsletter-form input{
+    border-radius: 30px;
+    color: #aaa;
+    padding: 12px 20px;
+    width: 344px;
+    height: 44px;
+
+}
+
+.footer-social span{
+    font-weight: 200;
+    display: block;
+    margin-bottom: 16px ;
+}
+
+.social-list{
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.social-list a:hover img{
+    opacity: 0.7;
+
+}
+
+
+hr{
+    max-width: 1360px;
+    margin: 0 auto;;
+    
+}
+
+.footer-bottom{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 200;
+    padding: 20px 0 20px;
+
+}
+
+
+
