@@ -12,6 +12,14 @@ main{
     margin: 0 auto;
 }
 
+@media (max-width: 1280px){
+    main{
+        padding: 0.625rem;
+        padding-bottom: 2rem;
+    }
+
+}
+
 
 .btn {
     font-size: 1.25rem;
@@ -47,3 +55,4 @@ main{
     color: var(--back-color);
     border-color: var(--fonte-color);
 }
+

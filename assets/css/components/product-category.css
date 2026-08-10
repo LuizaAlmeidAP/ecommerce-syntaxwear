@@ -17,6 +17,7 @@
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
 
 }
 
@@ -75,3 +76,8 @@
     background-size: cover;
 }
 
+@media (max-width: 500px){
+    .category-card{
+        width: 100%;
+    }
+}
